@@ -6,7 +6,16 @@ function App() {
     <div>
       <Navbar />
 
-      <section id="about" className="bg-gray-100 py-16 px-8">
+      <section id="about" className="bg-white py-16 px-8">
+
+        <div className="flex justify-center mb-6">
+          <img
+            src= "https://i.imgur.com/MK3eW3As.jpg"
+            alt="Profile"
+            className="w-32 h-32 rounded-full shadow-lg"
+          />
+          </div>
+        
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-blue-600 mb-4">Tentang Saya</h2>
           <p className="text-gray-700 text-lg">
